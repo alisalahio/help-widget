@@ -18,7 +18,7 @@ export function show() {
     body.appendChild(temporary.children[0]);
   }
 
-  widgets = document.getElementsByClassName('help-widget')
+  widgets = document.getElementsByClassName('help-widget');
   widgets[0].addEventListener('click', triggerShowPopup);
   body.addEventListener('click', triggerClosePopup)
 }

@@ -13,13 +13,18 @@ export function showPopup() {
   body = document.getElementsByTagName('body')[0];
   while (temporary.children.length > 0) {
     elements.push(temporary.children[0]);
+    temporary.children[0].addEventListener('click', stopClose)
     body.appendChild(temporary.children[0]);
   }
+}
+
+export function stopClose(e) {
+  e.stopPropagation();
+  return;
 }
 
 export function closePopup() {
   while (elements.length > 0) {
     elements.pop().remove();
   }
-  body.removeEventListener('click', close);
 }
