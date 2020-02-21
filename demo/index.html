@@ -1,13 +1,10 @@
 <html>
 <head>
-  <title>Demo page of the widget</title>
+  <title>Help widget</title>
 </head>
 <body>
-  <h1>Lorem ipsum dolor sit amet augue</h1>
-  <h2>Fusce gravida vehicula vestibulum tortor pulvinar</h2>
-  <p>Orci purus ante excepteur nunc nascetur rhoncus taciti ut. Ornare vitae sed. Amet suspendisse integer rutrum aliquet
-    venenatis. Nec sed nullam mauris magna vel pretium non tristique. Porta justo ac dictumst aliquip blandit. Libero
-    nec eu dolor eget volutpat. Magna nulla neque. Fames tempus lorem duis orci ipsum.</p>
+  <h1>Help widget</h1>
+  <h2>Created by <a target="_blank" href="https://twitter.com/alisalahio">@alisalahio</a></h2>
   <script>
     (function (w,d,s,o,f,js,fjs) {
       w['help-widget']=o;w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
@@ -15,6 +12,7 @@
       js.id = o; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
     }(window, document, 'script', 'hw', './widget.js'));
     hw('init', { });
+    hw('message', '');
   </script>
 </body>
 </html>
