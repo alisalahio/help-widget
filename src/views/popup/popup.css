@@ -27,15 +27,6 @@
   font-weight: 700;
   display: inline-block;
 }
-.help-widget-popup-header svg {
-  width: 42px;
-  height: 42px;
-  margin-right: 16px;
-}
-.help-widget-popup-header-greeting {
-  display: flex;
-  align-items: center;
-}
 .help-widget-popup-content {
   padding: 30px 30px;
   text-align: center;
