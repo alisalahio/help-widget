@@ -1,5 +1,6 @@
 {
-  "name": "js-widget",
+  "name": "help-widget",
+  "author": "Ali Salah <ali@salah.io>"
   "scripts": {
     "build": "./node_modules/.bin/webpack --config webpack.config.js",
     "build-release": "./node_modules/.bin/webpack --config webpack.config.js --env.prod",

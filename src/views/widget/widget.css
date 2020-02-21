@@ -1,0 +1,44 @@
+.help-widget {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  fill: #fff;
+  color: #fff;
+  display: flex;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  z-index: 8;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+.help-widget .svg-container {
+  transform: translateZ(0);
+}
+.help-widget .svg {
+  width: 50px;
+  height: 50px;
+}
+.help-widget #icon-help-a, .help-widget #icon-help-b, .help-widget #icon-help-c {
+  -webkit-transition: 0.02s fill ease;
+  -moz-transition: 0.02s fill ease;
+  -ms-transition: 0.02s fill ease;
+  transition: 0.02s fill ease;
+}
+.help-widget #icon-help-a {
+  fill: #999;
+}
+.help-widget #icon-help-c {
+  fill: #333;
+}
+.help-widget:hover #icon-help-a {
+  fill: #888;
+}
+.help-widget:hover #icon-help-c {
+  fill: black;
+}

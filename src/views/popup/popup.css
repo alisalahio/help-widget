@@ -1,0 +1,70 @@
+.help-widget-popup {
+  z-index: 2147483000;
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  width: 376px;
+  min-height: 250px;
+  max-height: 600px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 5px 40px;
+  opacity: 1;
+  height: calc(100% - 120px);
+  border-radius: 8px;
+  overflow: hidden;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+}
+.help-widget-popup-header {
+  background-color: #222;
+  color: white;
+  text-rendering: antialiased;
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.help-widget-popup-header h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  display: inline-block;
+}
+.help-widget-popup-header svg {
+  width: 42px;
+  height: 42px;
+  margin-right: 16px;
+}
+.help-widget-popup-header-greeting {
+  display: flex;
+  align-items: center;
+}
+.help-widget-popup-content {
+  padding: 30px 30px;
+  text-align: center;
+}
+.help-widget-popup-content a {
+  width: 100%;
+  display: inline-block;
+  padding: 20px 0;
+  margin: 10px 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  transition-property: transform, box-shadow;
+  transition-duration: 0.04s;
+  transition-timing-function: ease;
+}
+
+.help-widget-popup-content a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.help-widget-popup-content a:focus {
+  transform: translateY(1px);
+  background-color: #eee;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
