@@ -411,7 +411,7 @@
     "pkg-dir": "^2.0.0",
     "portfinder": "^1.0.25",
     "posix-character-classes": "^0.1.1",
-    "postcss": "^7.0.27",
+    "postcss": "^8.2.10",
     "postcss-attribute-case-insensitive": "^4.0.2",
     "postcss-color-functional-notation": "^2.0.1",
     "postcss-color-gray": "^5.0.0",
