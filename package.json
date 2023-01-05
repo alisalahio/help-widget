@@ -304,7 +304,7 @@
     "json-schema-traverse": "^0.4.1",
     "json3": "^3.3.3",
     "killable": "^1.0.1",
-    "json5": "^0.5.1",
+    "json5": "^1.0.2",
     "kind-of": "^3.2.2",
     "lazy-cache": "^1.0.4",
     "lcid": "^1.0.0",
